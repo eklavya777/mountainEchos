@@ -1,0 +1,242 @@
+.enterid{
+    position: absolute;
+    align-items: center;
+    margin-left: 29%;
+    margin-top: 12%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    height: 40%;
+}
+
+.enterid label {
+    display: block;
+}
+
+.roomid{
+    margin-left: 20px;
+}
+
+.enterid button{
+    margin-left: 17%;
+    margin-top: 3px;
+}
+
+.enterid h1{
+    color: #1b1111;
+    font-family: cursive, 'Arial', sans-serif;
+    background-color: #a084a3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+@media ( min-width: 850px ) and ( max-width: 915px){
+    .enterid{
+        position: absolute;
+        align-items: center;
+        margin-left: 22%;
+        margin-top: 25%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 20px;
+        border-radius: 10px;
+        width: 40%;
+        height: 35%;
+    }
+    
+    .enterid label {
+        display: block;
+    }
+    
+    .roomid{
+        margin-left: 20px;
+    }
+    
+    
+    .enterid h1{
+        color: #1b1111;
+        font-family: cursive, 'Arial', sans-serif;
+        background-color: #a084a3;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border-radius: 10px;
+        margin-bottom: 40px;
+    }
+
+    .button{
+        margin-right: 18%;
+    }
+}
+
+@media (min-width : 915px) and ( max-width: 950px){
+    .enterid{
+        position: absolute;
+        align-items: center;
+        margin-left: 22%;
+        margin-top: 25%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 20px;
+        border-radius: 10px;
+        width: 40%;
+        height: 35%;
+    }
+    
+    .enterid label {
+        display: block;
+    }
+    
+    .roomid{
+        margin-left: 20px;
+    }
+    
+    
+    .enterid h1{
+        color: #1b1111;
+        font-family: cursive, 'Arial', sans-serif;
+        background-color: #a084a3;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border-radius: 10px;
+        margin-bottom: 40px;
+    }
+
+    .button{
+        margin-right: 18%;
+    }
+}
+
+@media (min-width : 950px) and ( max-width: 1000px){
+    .enterid{
+        position: absolute;
+        align-items: center;
+        margin-left: 22%;
+        margin-top: 25%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 20px;
+        border-radius: 10px;
+        width: 40%;
+        height: 35%;
+    }
+    
+    .enterid label {
+        display: block;
+    }
+    
+    .roomid{
+        margin-left: 20px;
+    }
+    
+    
+    .enterid h1{
+        color: #1b1111;
+        font-family: cursive, 'Arial', sans-serif;
+        background-color: #a084a3;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border-radius: 10px;
+        margin-bottom: 40px;
+    }
+
+    .button{
+        margin-right: 16%;
+    }
+}
+
+@media (min-width : 1000px) and ( max-width: 1030px){
+    .enterid{
+        position: absolute;
+        align-items: center;
+        margin-left: 22%;
+        margin-top: 22%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 20px;
+        border-radius: 10px;
+        width: 40%;
+        height: 35%;
+    }
+    
+    .enterid label {
+        display: block;
+    }
+    
+    .roomid{
+        margin-left: 20px;
+    }
+    
+    
+    .enterid h1{
+        color: #1b1111;
+        font-family: cursive, 'Arial', sans-serif;
+        background-color: #a084a3;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border-radius: 10px;
+        margin-bottom: 40px;
+    }
+
+    .button{
+        margin-right: 15%;
+    }
+}
+
+@media (min-width : 1030px) and ( max-width: 1100px){
+    .enterid{
+        position: absolute;
+        align-items: center;
+        margin-left: 22%;
+        margin-top: 22%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 20px;
+        border-radius: 10px;
+        width: 40%;
+        height: 35%;
+    }
+    
+    .enterid label {
+        display: block;
+    }
+    
+    .roomid{
+        margin-left: 20px;
+    }
+    
+    
+    .enterid h1{
+        color: #1b1111;
+        font-family: cursive, 'Arial', sans-serif;
+        background-color: #a084a3;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border-radius: 10px;
+        margin-bottom: 40px;
+    }
+
+    .button{
+        margin-right: 12%;
+    }
+}
+
+@media (min-width : 1100px) and ( max-width: 1155px){
+    .enterid{
+        position: absolute;
+        align-items: center;
+        margin-left: 22%;
+        margin-top: 21%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 20px;
+        border-radius: 10px;
+        width: 40%;
+        height: 35%;
+    }
+    
+    .enterid label {
+        display: block;
+    }
+    
+    .roomid{
+        margin-left: 20px;
+    }
+    
+    
+    .enterid h1{
+        color: #1b1111;
+        font-family: cursive, 'Arial', sans-serif;
+        background-color: #a084a3;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border-radius: 10px;
+        margin-bottom: 40px;
+    }
+
+    .button{
+        margin-right: 12%;
+    }
+}

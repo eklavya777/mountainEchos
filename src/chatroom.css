@@ -1,0 +1,357 @@
+.chatroom{
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    border: 2px solid #c595d5;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url("/2ndpage.jpg"); /* Adjust the path based on your project structure */
+  background-size: cover;
+  background-position: center;
+}
+.name{
+   font-size: small;
+   
+   display: block;
+}
+
+.room-header{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.chatroom ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    max-height: 400px;
+    margin-left: 10%;
+}
+
+.message-container{
+    padding: 0px;
+}
+
+.chatroom li div {
+    border: 1px solid #ccc;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #f9f9f9;
+        /* Set a maximum width for the message container */
+        word-wrap: break-word;
+        max-height: 150px; /* Set the maximum height for vertical scrolling */
+    
+}
+
+    /* ... your existing styles ... */
+
+    .chatroom ul.message-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        max-height: 360px;
+        overflow-y: auto;
+    }
+
+    .chatroom li {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+
+    /* Styles for sent messages */
+    .chatroom li.sent div {
+        background-color: #4caf50;
+        color: white;
+        width: 94%;
+        /* Align sent messages to the right */
+    }
+
+    /* Styles for received messages */
+    .chatroom li.received div {
+        background-color: #f9f9f9;
+        color: #333;
+        align-self: flex-start;
+        width: 50%; /* Align received messages to the left */
+    }
+
+    .message-list {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .chatroom li.sent {
+        text-align: left;
+        margin-left: 40%;
+        width: 56.5%;
+    }
+
+    .chatroom li.received {
+        text-align: left;
+    }
+
+   
+
+    .no-messages {
+        text-align: center;
+        font-style: italic;
+        color: #070707;
+        margin-top: 20%;
+    }
+    
+    .messagediv{
+        position: absolute;
+        margin-top: 34%;
+        margin-left: 29%;
+    }
+
+    @media ( min-width: 850px ) and ( max-width: 880px){
+       
+        .chatroom{
+            position: absolute;
+            width: 50%;
+            height: 60%;
+            margin-left: 20%;
+            margin-top: 12%;
+            border: 2px solid #c595d5;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-image: url("/2ndpage.jpg"); /* Adjust the path based on your project structure */
+          background-size: cover;
+          background-position: center;
+        }
+
+        .messagediv{
+            position: absolute;
+            margin-top: 66%;
+            margin-left: 22%;
+        }
+
+        .label{
+            font-size: 19px;
+        }
+
+        .input{
+                width: 40%;
+        }
+
+        .send{
+            height: 45px;
+            
+        }
+    }
+
+
+    @media ( min-width: 880px ) and ( max-width: 925px){
+        .chatroom{
+            position: absolute;
+            width: 50%;
+            height: 60%;
+            margin-left: 20%;
+            margin-top: 12%;
+            border: 2px solid #c595d5;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-image: url("/2ndpage.jpg"); /* Adjust the path based on your project structure */
+          background-size: cover;
+          background-position: center;
+        }
+
+        .messagediv{
+            position: absolute;
+            margin-top: 64%;
+            margin-left: 22%;
+        }
+
+        .label{
+            font-size: 19px;
+        }
+
+        .input{
+                width: 40%;
+        }
+
+        .send{
+            height: 45px;
+            
+        }
+    }
+
+    @media ( min-width: 925px ) and ( max-width: 990px){
+        .chatroom{
+            position: absolute;
+            width: 50%;
+            height: 60%;
+            margin-left: 20%;
+            margin-top: 12%;
+            border: 2px solid #c595d5;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-image: url("/2ndpage.jpg"); /* Adjust the path based on your project structure */
+          background-size: cover;
+          background-position: center;
+        }
+
+        .messagediv{
+            position: absolute;
+            margin-top: 62%;
+            margin-left: 24%;
+        }
+
+        .label{
+            font-size: 19px;
+        }
+
+        .input{
+                width: 40%;
+        }
+
+        .send{
+            height: 45px;
+            
+        }
+    }
+
+
+    @media ( min-width: 990px ) and ( max-width: 1030px){
+        .chatroom{
+            position: absolute;
+            width: 50%;
+            height: 60%;
+            margin-left: 20%;
+            margin-top: 12%;
+            border: 2px solid #c595d5;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-image: url("/2ndpage.jpg"); /* Adjust the path based on your project structure */
+          background-size: cover;
+          background-position: center;
+        }
+
+        .messagediv{
+            position: absolute;
+            margin-top: 59%;
+            margin-left: 24%;
+        }
+
+        .label{
+            font-size: 19px;
+        }
+
+        .input{
+                width: 40%;
+        }
+
+        .send{
+            height: 45px;
+            
+        }
+    }
+
+    @media ( min-width: 1030px ) and ( max-width: 1100px){
+        .chatroom{
+            position: absolute;
+            width: 50%;
+            height: 60%;
+            margin-left: 20%;
+            margin-top: 12%;
+            border: 2px solid #c595d5;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-image: url("/2ndpage.jpg"); /* Adjust the path based on your project structure */
+          background-size: cover;
+          background-position: center;
+        }
+
+        .messagediv{
+            position: absolute;
+            margin-top: 57%;
+            margin-left: 25%;
+        }
+
+        .label{
+            font-size: 19px;
+        }
+
+        .input{
+                width: 40%;
+        }
+
+        .send{
+            height: 45px;
+            
+        }
+    }
+
+    @media ( min-width: 1100px ) and ( max-width: 1125px){
+        .chatroom{
+            position: absolute;
+            width: 50%;
+            height: 60%;
+            margin-left: 20%;
+            margin-top: 12%;
+            border: 2px solid #c595d5;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-image: url("/2ndpage.jpg"); /* Adjust the path based on your project structure */
+          background-size: cover;
+          background-position: center;
+        }
+
+        .messagediv{
+            position: absolute;
+            margin-top: 55.5%;
+            margin-left: 26.5%;
+        }
+
+        .label{
+            font-size: 19px;
+        }
+
+        .input{
+                width: 40%;
+        }
+
+        .send{
+            height: 45px;
+            
+        }
+    }
+
+    @media ( min-width: 1125px ) and ( max-width: 1155px){
+        .chatroom{
+            position: absolute;
+            width: 50%;
+            height: 60%;
+            margin-left: 20%;
+            margin-top: 10%;
+            border: 2px solid #c595d5;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-image: url("/2ndpage.jpg"); /* Adjust the path based on your project structure */
+          background-size: cover;
+          background-position: center;
+        }
+
+        .messagediv{
+            position: absolute;
+            margin-top: 53.5%;
+            margin-left: 26.5%;
+        }
+
+        .label{
+            font-size: 19px;
+        }
+
+        .input{
+                width: 40%;
+        }
+
+        .send{
+            height: 45px;
+            
+        }
+    }
