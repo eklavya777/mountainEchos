@@ -11,14 +11,15 @@
   background-size: cover;
   background-position: center;
 }
+
 .name{
    font-size: small;
-   
    display: block;
 }
 
 .room-header{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: "Poppins", sans-serif;
 }
 
 .chatroom ul {
@@ -98,8 +99,14 @@
     .no-messages {
         text-align: center;
         font-style: italic;
-        color: #070707;
-        margin-top: 20%;
+        background-color: #343534;
+        font-size: 15px;
+        margin-top: 18%;
+        text-shadow: 1px 1px 2px rgb(16, 14, 14), 0 0 25px rgb(176, 133, 23), 0 0 5px rgb(32, 30, 29);
+        width: 170px;
+        margin-left: 38%;
+        border-radius: 10px;
+        height: 25px;
     }
     
     .messagediv{
@@ -107,6 +114,12 @@
         margin-top: 34%;
         margin-left: 29%;
     }
+
+    .send{
+        font-size: 15px;
+    }
+
+    
 
     @media ( min-width: 850px ) and ( max-width: 880px){
        
