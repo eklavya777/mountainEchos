@@ -11,7 +11,7 @@
 .Createroomh1{
     margin-right: 2px;
     color: #1b1111;
-    font-family: cursive, 'Arial', sans-serif;
+    font-family: "Poppins", sans-serif;
     background-color: #a084a3; /* Yellow highlight color, adjust as needed */
   display: inline; /* Ensures that the background color only covers the text */
   padding: 10px;
@@ -21,7 +21,7 @@
 
 label{
     font-size: larger;
-    font-family: cursive, 'Arial', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 input {
